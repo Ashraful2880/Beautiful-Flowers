@@ -1,0 +1,172 @@
+@media only screen and (max-width:688px) {
+
+    .menu-area {
+        display: none;
+    }
+
+    h2 {
+        padding: 20px 0;
+    }
+
+    .banner-area {
+        height: 60vh;
+    }
+
+    .banner-text {
+        text-align: center;
+        padding-top: 20%;
+    }
+
+    .container {
+        margin: 0 15px;
+    }
+
+    .flex-container {
+        display: block;
+        max-width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .blog-item {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .delivery-item {
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .delivery-item p,
+    .offer-item p {
+        margin-top: 10px;
+        padding: 0 10px;
+    }
+
+    .offer-item {
+        margin: 20px auto;
+        border-bottom: 1px solid grey;
+        padding-bottom: 40px;
+    }
+
+    .offers {
+        display: block;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .sample-item {
+        max-width: 100%;
+        margin-left: 0%;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    .name-form {
+        display: block;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .name-form input {
+        display: block;
+        max-width: 80%;
+        margin: 20px auto;
+        padding: 16px 103px;
+    }
+
+    .address-form {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .message {
+        display: block;
+        max-width: 53%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .feture-area {
+        margin-bottom: 20px;
+    }
+
+    .feture-area img {
+        max-width: 100%;
+    }
+
+    .sample-area p {
+        padding: 0 20px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    h1.logo {
+        font-size: 32px;
+    }
+
+    section.container {
+        padding: 0 10px;
+    }
+
+    .banner-area {
+        height: 65vh;
+    }
+
+    .banner-text {
+        text-align: center;
+    }
+
+    .flex-container {
+        display: block;
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .delivery-item {
+        display: block;
+        max-width: 100%;
+        padding: 40px 0px;
+        margin: 20px;
+    }
+
+    .blog-item {
+        max-width: 100%;
+        margin-left: 0%;
+    }
+
+    .sample-item {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .offers {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .name-form {
+        display: block;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .name-form input {
+        display: block;
+        max-width: 80%;
+        margin: 20px auto;
+        padding: 16px 180px;
+    }
+
+    .address-form {
+        max-width: 75%;
+    }
+
+    p {
+        padding: 0 15px;
+    }
+
+
+}

@@ -1,0 +1,361 @@
+/* Regular Style */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 400;
+    color: #fff;
+}
+
+h2 {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 500;
+    padding: 60px 0;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.container {
+    margin: 0 20%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+button.order-btn {
+    border: none;
+    border-radius: 25px;
+    background-image: linear-gradient(45deg, rgb(255, 0, 0), rgb(251, 255, 4));
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 16px 32px;
+    margin-top: 45px;
+}
+
+button.order-btn:hover {
+    background-image: linear-gradient(45deg, rgb(251, 255, 4), rgb(255, 0, 0));
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Menu-Area Style */
+.logo {
+    margin-top: 28px;
+}
+
+.menu-area {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    width: 75%;
+    text-align: right;
+}
+
+.menu-area ul {
+    list-style-type: none;
+}
+
+.menu-area ul li {
+    display: inline-block;
+}
+
+.menu-area ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffff;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 35px;
+    padding: 10px 20px;
+    transition: ease all 0.3s;
+}
+
+.menu-area ul li a:hover {
+    background: #fff;
+    color: Black;
+}
+
+
+/* Banner Area Style Here */
+
+.banner-area {
+    height: 95vh;
+    max-width: 100%;
+    background: linear-gradient(#000000c2, #0c0b00c7), url(images/home.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.banner-text {
+    padding-top: 30%;
+}
+
+.banner-text h1 {
+    margin-bottom: 20px;
+}
+
+.banner-text p {
+    line-height: 30px;
+    color: #fff;
+}
+
+/* Delivery-Area Style Here */
+.fa,
+.far,
+.fas {
+    font-size: 65px;
+    text-align: center;
+    background: -webkit-linear-gradient(-85deg, rgb(173, 173, 9), tomato);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 25px;
+}
+
+.delivery-item {
+    margin-left: 5%;
+    max-width: 30%;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 5px 30px grey;
+    padding: 20px 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.delivery-item:hover {
+    box-shadow: 5px 5px 30px rgb(195, 195, 195);
+    ;
+    cursor: pointer;
+}
+
+.delivery-item h3,
+.offer-item h3 {
+    font-weight: 400;
+}
+
+.delivery-item p,
+.offer-item p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+/* Offer-Area Style Here */
+.offers {
+    grid-gap: 26px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.offer-item {
+    transition: 0.5s;
+}
+
+.offer-item:hover {
+    transform: translateX(2px);
+    cursor: pointer;
+}
+
+/* Feture-Area Style Here */
+.feture-area {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.feture-area img {
+    max-width: 80%;
+}
+
+/* Blog-Area Style Here */
+.blog-area {
+    background-color: rgb(235, 235, 235);
+    padding-bottom: 50px;
+}
+
+.blog-item {
+    max-width: 30%;
+    margin-left: 3%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.blog-item img {
+    max-width: 100%;
+}
+
+.blog-item h3 {
+    font-size: 25px;
+    margin: 15px auto;
+}
+
+.blog-item p {
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+.read-btn {
+    margin: 25px auto;
+    border: 1px solid tomato;
+    padding: 15px 30px;
+    background-color: tomato;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.read-btn:hover {
+    background-color: #fff;
+    border: 1px solid tomato;
+    color: tomato;
+}
+
+/* Sample-Area Style Here */
+.sample-area h2 {
+    padding-bottom: 10px;
+}
+
+.sample-area p {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.sample-item {
+    max-width: 40%;
+    margin-left: 5%;
+    position: relative;
+}
+
+.sample-item img {
+    max-width: 100%;
+}
+
+.sample-item h2 {
+    color: #fff;
+    position: absolute;
+    left: 10%;
+    bottom: 5%;
+}
+
+/* Earth-Area Style Here */
+.earth-area {
+    background-image: linear-gradient(#00000096, #0000006c), url(images/Footer\ Before.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.earth-area h2 {
+    color: #fff;
+    font-size: 50px;
+}
+
+/* Contact-Area Style Here */
+.contact-area {
+    max-width: 100%;
+    margin-bottom: 30px;
+    background-image: linear-gradient(180deg, rgb(255, 241, 241), rgb(169, 169, 255));
+    /* background-image: linear-gradient(#00000096, #0000006c), url(images/footer.png); */
+    padding-bottom: 35px;
+}
+
+.name-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    max-width: 40%;
+    margin: auto;
+}
+
+.address-form {
+    max-width: 40%;
+    margin: auto;
+}
+
+.name-form input,
+.message {
+    padding: 16px 15px;
+    border: none;
+    background-color: rgb(179, 104, 255);
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+input {
+    color: #fff;
+}
+
+.message {
+    max-width: 96%;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.submit-btn {
+    padding: 14px 60px;
+    border: 1px solid rgb(152, 50, 255);
+    color: #fff;
+    background-color: rgb(152, 50, 255);
+    font-size: 18px;
+    border-radius: 30px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    border: 0.1px solid blue;
+    background: #fff;
+    color: blue;
+}
+
+/* Footer-Area Style Here */
+.footer-text {
+    text-align: center;
+    margin-bottom: 10px;
+}
